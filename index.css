@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: LObster, "URW Chancery L", cursive;
+  font-size: 350%;
+  margin-bottom: 30px;
+}
+
+#content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 5%;
+}
+
+#info {
+  padding: 5%;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 4px 4px grey;
+  text-align: center;
+}
+
+.font-enlarge {
+  font-size: 20px;
+}
+
+.player-one {
+  color: #e06d86;
+}
+
+.player-two {
+  color: #6daee0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+table {
+  width: 300px;
+  height: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  background-color: #393761;
+  border: none;
+  opacity: 0.5;
+  box-shadow: 0 8px 6px -6px grey;
+
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+td:hover {
+  opacity: 1;
+}
+
+td:active {
+  box-shadow: 0 6px 4px 4px grey;
+}
